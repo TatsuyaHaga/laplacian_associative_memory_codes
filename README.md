@@ -3,7 +3,7 @@ Codes for Tatsuya Haga, Tomoki Fukai, "Multiscale representations of community s
 Written in Python 3 with libraries: numpy, scipy, matplotlib, networkx, pygraphviz.
 Commands are written in shell scripts.
 
-We did not include image data for the segmentation task. We took free images from following URLs. We chose ones with the lowest resolution.
+We did not include image data for the segmentation task. We took free images from following URLs.
 
 Kingfisher: https://pxhere.com/en/photo/957685 (360x640, actual size was 360x272)
 
