@@ -22,6 +22,7 @@ def trim_img(img,size,offset):
 #resize image
 img=PIL.Image.open(sys.argv[1])
 #img=0.298912*img[:,:,0]+0.586611*img[:,:,1]+0.114478*img[:,:,2] #mono
+img=trim_img(img, (150,150), (-130,-20))
 img.save("trimmed.jpg")
-img=img.resize((45,30),resample=PIL.Image.BILINEAR)
+img=img.resize((35,35),resample=PIL.Image.BILINEAR)
 img.save("resized.jpg")

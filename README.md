@@ -4,5 +4,7 @@ Written in Python 3 with libraries: numpy, scipy, matplotlib, networkx, pygraphv
 Commands are written in shell scripts.
 
 We did not include image data for the segmentation task. We took free images from following URLs. We chose ones with the lowest resolution.
-https://pixabay.com/photos/eagle-bird-bird-of-prey-natural-1753002/
-https://pixabay.com/photos/kingfisher-bird-blue-plumage-1905255/
+
+Kingfisher: https://pxhere.com/en/photo/957685 (360x640, actual size was 360x272)
+
+Eagle: https://pxhere.com/en/photo/789678  (360x640, actual size was 360x240)
